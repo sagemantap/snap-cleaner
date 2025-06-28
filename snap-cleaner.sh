@@ -32,7 +32,7 @@ else
     echo -e "${GREEN}========================================${NC}"
     echo -e "${GREEN}Clearing Snapd Cache${NC}"
     echo -e "${GREEN}This may take a moment...${NC}"
-    sudo rm -rf /var/lib/snapd/cache/*
+    rm -rf /var/lib/snapd/cache/*
     echo -e "${GREEN}Cache cleared successfully.${NC}"
 fi
 
